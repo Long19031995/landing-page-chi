@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div class="app bg-grey">
     <Header></Header>
     <Body></Body>
     <Footer></Footer>
@@ -16,3 +16,9 @@ export default {
   components: { Header, Body, Footer }
 }
 </script>
+
+<style lang="scss">
+.app {
+  background-image: url(assets/image/background.png);
+}
+</style>
