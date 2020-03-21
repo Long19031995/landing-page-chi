@@ -58,4 +58,21 @@
             border-bottom: none;
         }
     }
+    .overcharge-cost {
+        table {
+            width: 671px;
+            tr:first-child {
+                background-color: $red-lighter;
+            }
+            tr:last-child {
+                background-color: #FFFFFF;
+                td {
+                    color: $black-darker;
+                }
+            }
+        }
+        h1 {
+            color: $black-darker;
+        }
+    }
 }
