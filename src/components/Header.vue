@@ -42,13 +42,13 @@ export default {
 
     computed: {
         logo() {
-            return require('@/assets/image/logo.svg')
+            return require('@/assets/image/logo-icon/logo.svg')
         },
         avatar() {
-            return require('@/assets/image/avatar.png')
+            return require('@/assets/image/logo-icon/avatar.png')
         },
         dropdown() {
-            return require('@/assets/image/dropdown.svg')
+            return require('@/assets/image/logo-icon/dropdown.svg')
         }
     }
 }

@@ -19,6 +19,6 @@ export default {
 
 <style lang="scss">
 .app {
-  background-image: url(assets/image/background.png);
+  background-image: url(assets/image/graphics/background.png);
 }
 </style>

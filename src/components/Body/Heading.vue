@@ -77,7 +77,7 @@ export default {
 
     computed: {
         organicBusiness() {
-            return require('@/assets/image/organic_business.png')
+            return require('@/assets/image/graphics/organic_business.png')
         }
     },
 }

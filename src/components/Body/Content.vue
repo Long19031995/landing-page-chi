@@ -15,6 +15,7 @@
             </div>
         </template>
     </div>
+
 </template>
 
 <script>
@@ -30,7 +31,10 @@ export default {
     },
     computed: {
         checked() {
-            return require('@/assets/image/check.png')
+            return require('@/assets/image/logo-icon/check.svg')
+        },
+        icondown() {
+            return require('@/assets/image/logo-icon/dropdown.svg')
         }
     }
 }

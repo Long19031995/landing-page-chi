@@ -103,16 +103,11 @@ export const pricingContent = {
         },
         {
             name: 'Communication Channel: Hotline',
-            developer: 0,
-            team: 0,
             business: 1,
             enterprise: 1,
         },
         {
             name: 'Communication Channel: Private Chat',
-            developer: 0,
-            team: 0,
-            business: 0,
             enterprise: 1,
         }
     ],
@@ -140,7 +135,6 @@ export const pricingContent = {
         },
         {
             name: 'Allows users to create encoding presets with custom pre-defined profiles',
-            developer: 0,
             team: 'Limit to 3 profiles per preset',
             business: 'Limit to 6 profiles per preset',
             enterprise: 1,
@@ -210,7 +204,6 @@ export const pricingContent = {
         },
         {
             name: 'Uiza\'s CDN network',
-            developer: 0,
             team: 1,
             business: 1,
             enterprise: 1,
