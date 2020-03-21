@@ -6,6 +6,6 @@
 @import '_grid';
 @import '_variable';
 
-@import '_header';
-@import '_body';
-@import '_footer';
+@import 'src/assets/styles/header';
+@import '../styles/body';
+@import '../styles/footer';
