@@ -5,14 +5,16 @@ export const pricingContent = {
             des: 'Forever free account with some limitations',
             price: 'Free',
             btn: 'Get Started',
-            redirect: ''
+            redirect: '',
+            btnClass: 'black-lighter bd-black-lightest'
         },
         {
             name: 'Team',
             des: 'All the functionality a growing team needs',
             price: '30$',
             btn: 'Purchase Now',
-            redirect: ''
+            redirect: '',
+            btnClass: 'black-darker bd-black-lightest'
         },
         {
             suggest: 1,
@@ -20,13 +22,16 @@ export const pricingContent = {
             des: 'All the functionality a growing business needs',
             price: '300$',
             btn: 'Purchase Now',
-            redirect: ''
+            redirect: '',
+            btnClass: 'white bg-red bd-none',
+            bestValue: true
         },
         {
             name: 'Enterprise',
             des: 'Customizable service platform to scale your mature IT organization',
             btn: 'Contact Us',
-            redirect: ''
+            redirect: '',
+            btnClass: 'white bg-red bd-none'
         },
     ],
     defaultFeatures: [

@@ -17,4 +17,43 @@
         border-radius: 50%;
         background-color: $green;
     }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4 {
+        border-bottom: 1px solid $black-lightest;
+        border-right: 1px solid $black-lightest;
+    }
+    .col-5 {
+        border-bottom: 1px solid $black-lightest;
+    }
+    .heading {
+        border-radius: 4px 4px 0 0;
+        .best-value {
+            border: 2px solid $green;
+            .best-value-item {
+                top: -14px;
+                left: calc(50% - 51px);
+            }
+        }
+    }
+    .content {
+        border-radius: 0 0 4px 4px;
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5 {
+            padding: 18px 21px;
+        }
+    }
+    .bottom {
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5 {
+            border-bottom: none;
+        }
+    }
 }

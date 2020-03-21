@@ -4,68 +4,33 @@ $green: #3DD598;
 $black-darker: #203048;
 $black: #4D596D;
 $black-lighter: #A6ACB6;
+$black-lightest: #D2D6DA;
 $grey: #F4F7F9;
 
-.red {
-    color: $red;
+$colors: (
+    "red": $red,
+    "red-lighter": $red-lighter,
+    "green": $green,
+    "black-darker": $black-darker,
+    "black": $black,
+    "black-lighter": $black-lighter,
+    "black-lightest": $black-lightest,
+    "grey": $grey,
+    "white": white,
+);
+
+@each $name, $value in $colors {
+    .#{$name} {
+        color: $value;
+    }
+    .bg-#{$name} {
+        background-color: $value;
+    }
+    .bd-#{$name} {
+        border: 1px solid $value;
+    }
 }
 
-.bg-red {
-    background-color: $red;
-}
-
-.red-lighter {
-    color: $red-lighter;
-}
-
-.bg-red-lighter {
-    background-color: $red-lighter;
-}
-
-.green {
-    color: $green;
-}
-
-.bg-green {
-    background-color: $green;
-}
-
-.black-darker {
-    color: $black-darker;
-}
-
-.bg-black-darker {
-    background-color: $black-darker;
-}
-
-.black {
-    color: $black;
-}
-
-.bg-black {
-    background-color: $black;
-}
-
-.black-lighter {
-    color: $black-lighter;
-}
-
-.bg-black-lighter {
-    background-color: $black-lighter;
-}
-
-.grey {
-    color: $grey;
-}
-
-.bg-grey {
-    background-color: $grey;
-}
-
-.white {
-    color: white;
-}
-
-.bg-white {
-    background-color: white;
+.bd-none {
+    border: none;
 }
