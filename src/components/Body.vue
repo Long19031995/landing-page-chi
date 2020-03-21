@@ -18,26 +18,3 @@ export default {
     components: { Heading, Content },
 }
 </script>
-
-<style lang="scss">
-.body {
-    padding-top: 140px;
-    .col-1 {
-        width: 379px;
-        flex-basis: 379px;
-    }
-    .col-2,
-    .col-3,
-    .col-4,
-    .col-5 {
-        width: 188px;
-        flex-basis: 188px;
-    }
-    .checked {
-        width: 22px;
-        height: 22px;
-        border-radius: 50%;
-        background-color: $green;
-    }
-}
-</style>
