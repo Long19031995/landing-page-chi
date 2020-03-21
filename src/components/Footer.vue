@@ -81,15 +81,3 @@ export default {
     name: 'Footer'
 }
 </script>
-
-<style lang="scss">
-.footer {
-    .question-number {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background-color: $red-lighter;
-        font-size: 40px;
-    }
-}
-</style>

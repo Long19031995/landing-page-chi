@@ -53,19 +53,3 @@ export default {
     }
 }
 </script>
-
-<style lang="scss">
-    .header {
-        background-color: #E63946;
-        padding: 10px;
-        color: white;
-        position: fixed;
-        width: 100%;
-        .logo {
-            height: 40px;
-            img {
-                height: 100%;
-            }
-        }
-    }
-</style>
