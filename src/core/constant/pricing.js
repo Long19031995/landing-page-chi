@@ -25,7 +25,6 @@ export const pricingContent = {
         {
             name: 'Enterprise',
             des: 'Customizable service platform to scale your mature IT organization',
-            price: '30$',
             btn: 'Contact Us',
             redirect: ''
         },
