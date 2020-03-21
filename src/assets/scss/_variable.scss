@@ -6,6 +6,7 @@ $black: #4D596D;
 $black-lighter: #A6ACB6;
 $black-lightest: #D2D6DA;
 $grey: #F4F7F9;
+$gray-lighter: #798391;
 
 $colors: (
     "red": $red,
@@ -17,6 +18,7 @@ $colors: (
     "black-lightest": $black-lightest,
     "grey": $grey,
     "white": white,
+    "gray-lighter": $gray-lighter,
 );
 
 @each $name, $value in $colors {
@@ -33,4 +35,16 @@ $colors: (
 
 .bd-none {
     border: none;
+}
+
+.text-dark {
+    color: $black;
+}
+
+.text-dark-light {
+    color: $black-darker
+}
+
+.text-gray-lighter {
+    color: $gray-lighter
 }

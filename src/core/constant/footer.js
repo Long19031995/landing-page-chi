@@ -11,7 +11,7 @@ export const footerContent = {
         },
         {
             q: 'How do we calculate Encoding Minutes?',
-            ans: 'Profile determine encoding minutes. Three attribute affect encoding minutes: Video Resolution, Codec, and Video Framerate.' +
+            ans: 'Profile determine encoding minutes. Three attribute affect encoding minutes: Video Resolution, Codec, and Video Framerate. ' +
                 'Each profile adds encoding minutes with the multiplier of the tree attributes. For non-encoding live stream, the duration ' +
                 'of the event will be counted as encoding minutes.' +
                 'Click here for an example.'
