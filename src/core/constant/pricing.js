@@ -116,7 +116,7 @@ export const pricingContent = {
             enterprise: 1,
         }
     ],
-    expandedFeature: [
+    expandedFeatures: [
         {
             name: 'Supported formats',
             developer: 'Popular formats (mp4, mov, mkv, m4v, avi, ts, mpg, webm, wmv)',
