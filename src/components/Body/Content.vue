@@ -1,5 +1,5 @@
 <template>
-    <div :key="index" class="content flex bg-white black-darker">
+    <div :key="index" class="content flex bg-white black-darker" :class="{'last-content': lastChild}">
         <div class="col-1 feature-name font-14px">{{ content.name }}</div>
         <div class="col-2 col-developer font-14px text-center">
             <div v-if="content.developer !== 1"> {{ content.developer }}</div>
@@ -37,8 +37,8 @@ export default {
             type: Object,
             default: () => {}
         },
-        index: {
-        }
+        index: {},
+        lastChild: {}
     },
     computed: {
         checked() {

@@ -57,6 +57,17 @@
         .col-5 {
             padding: 18px 21px;
         }
+        &.last-content {
+            .col-1,
+            .col-2,
+            .col-3,
+            .col-4 {
+                border-bottom: none;
+            }
+            .col-5 {
+                border-bottom: none;
+            }
+        }
     }
     .bottom {
         position: sticky;
