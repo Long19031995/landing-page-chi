@@ -6,7 +6,7 @@
                     <div class="flex">
                         <div class="white">
                             <div class="question-number flex justify-center align-center">
-                                2
+                                1
                             </div>
                         </div>
                         <div class="question-content ml16">

@@ -282,7 +282,6 @@ export const pricingContent = {
         },
         {
             name: 'Capture thumbnail from the video',
-            developer: 0,
             team: 1,
             business: 1,
             enterprise: 1,

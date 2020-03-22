@@ -4,7 +4,7 @@
 
         <Heading></Heading>
         
-        <template v-for="(val, index) in pageData.defaultFeatures">
+        <template v-for="(val, index) in pageData">
             <Content :content="val" :key="index"></Content>
         </template>
 
@@ -58,7 +58,7 @@ export default {
 
     data() {
         return {
-            pageData: pricingContent,
+            pageData: pricingContent.defaultFeatures,
             viewMore: false
         }
     },
@@ -66,6 +66,17 @@ export default {
     computed: {
         iconDown() {
             return require('@/assets/image/logo-icon/down.svg')
+        }
+    },
+
+    watch: {
+        viewMore: {
+            handler (val) {
+                if (val) {
+                    this.pageData.push(...pricingContent.expandedFeatures)
+                }
+            },
+            deep: true
         }
     }
 }

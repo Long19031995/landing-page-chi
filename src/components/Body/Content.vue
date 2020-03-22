@@ -1,11 +1,26 @@
 <template>
     <div :key="index" class="content flex bg-white black-darker">
         <div class="col-1 feature-name font-14px">{{ content.name }}</div>
-        <div class="col-2 col-developer font-14px text-center">{{ content.developer }}</div>
-        <div class="col-3 col-team font-14px text-center">{{ content.team }}</div>
-        <div class="col-4 col-business font-14px text-center">{{ content.business }}</div>
+        <div class="col-2 col-developer font-14px text-center">
+            <div v-if="content.developer !== 1"> {{ content.developer }}</div>
+            <div v-else class="flex align-center justify-center">
+                <img :src="checked" class="checked">
+            </div>
+        </div>
+        <div class="col-3 col-team font-14px text-center">
+            <div v-if="content.team !== 1"> {{ content.team }}</div>
+            <div v-else class="flex align-center justify-center">
+                <img :src="checked" class="checked">
+            </div>
+        </div>
+        <div class="col-4 col-business font-14px text-center">
+            <div v-if="content.business !== 1"> {{ content.business }}</div>
+            <div v-else class="flex align-center justify-center">
+                <img :src="checked" class="checked">
+            </div>
+        </div>
         <div class="col-5 col-enterprise font-14px text-center">
-            <div v-if="content.enterprise !== 1" class=""> {{ content.enterprise }}</div>
+            <div v-if="content.enterprise !== 1"> {{ content.enterprise }}</div>
             <div v-else class="flex align-center justify-center">
                 <img :src="checked" class="checked">
             </div>
@@ -21,6 +36,8 @@ export default {
         content: {
             type: Object,
             default: () => {}
+        },
+        index: {
         }
     },
     computed: {
