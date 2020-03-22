@@ -1,7 +1,7 @@
 <template>
     <div class="heading flex bg-white black-darker">
-        <div class="col-1">
-            <img :src="organicBusiness">
+        <div class="col-1 px24">
+            <img :src="organicBusiness" class="w100">
         </div>
         <template v-for="(val, index) in pageData.allPlans">
             <div :class="[`col-${index+2}`, { 'best-value pos-rlt': val.bestValue }]" class="px16 pt40 pb8 flex flex-column justify-space-between">
@@ -11,9 +11,9 @@
                 <div class="text-center">
                     <div class="title mb16 font-24px">{{ val.name }}</div>
                     <div class="description black-lighter mb20 font-12px">{{ val.des }}</div>
-                    <div class="price mb12 font-32px">{{ val.price }}</div>
+                    <div class="price mb12 font-32px font-bold black-darker">{{ val.price }}</div>
                 </div>
-                <button @click="" class="black-lighter px12 py8 br4 font-16px w100 hover-pointer" :class="val.btnClass">
+                <button @click="" class="px12 py8 br4 font-16px w100 hover-pointer" :class="val.btnClass">
                     {{ val.btn }}
                 </button>
             </div>

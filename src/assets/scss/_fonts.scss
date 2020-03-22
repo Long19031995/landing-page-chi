@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'avenir';
-  src: url('~@/assets/fonts/AvenirLTStd-Medium.otf');
+  src: url('~@/assets/fonts/AvenirLTStd-Book.otf');
+}
+
+@font-face {
+  font-family: 'avenir-bold';
+  src: url('~@/assets/fonts/Avenir-Next-LT-Pro-Bold_5182.ttf');
 }
 
 .font-bold {

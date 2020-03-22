@@ -115,6 +115,87 @@ export const pricingContent = {
             enterprise: 1,
         }
     ],
+    moreFeatures: [
+        {
+            name: 'Encoding Minutes (mins)',
+            developer: '200',
+            team: '2.000',
+            business: '20.000',
+            enterprise: 1,
+        },
+        {
+            name: 'Storage (GB)',
+            developer: '2',
+            team: '50',
+            business: '1.000',
+            enterprise: 1,
+        },
+        {
+            name: 'Delivery (GB)',
+            developer: '5',
+            team: '50',
+            business: '1.000',
+            enterprise: 1,
+        },
+        {
+            name: 'Live entity',
+            developer: '1',
+            team: '10',
+            business: '100',
+            enterprise: 1,
+        },
+        {
+            name: 'Live Record Stream DVR',
+            developer: 'Fixed at the first 1 hours',
+            team: 'Fixed at the first 3 hours',
+            business: 'Fixed at the first 6 hours',
+            enterprise: 1,
+        },
+        {
+            name: 'Youtube, Facebook, Twitch... or any custom end point',
+            developer: 'Limit to 1 additional destination',
+            team: 'Limit to 3 additional destination',
+            business: 'Limit to 10 additional destination',
+            enterprise: 1,
+        },
+        {
+            name: 'Encode the signal',
+            developer: 'No encoding limit to 20,000 kbps',
+            team: 'Encoding up to 1080p limit to 20,000 kbp',
+            business: 'Encoding up to 4K limit to 20,000 kbp',
+            enterprise: 1,
+        },
+        {
+            name: 'Encoded Video Resolution',
+            developer: 'Up to 720p',
+            team: 'Up to 1080p',
+            business: 'Up to 4K',
+            enterprise: 'Up to 4K',
+        },
+        {
+            name: 'Video Chunk duration',
+            developer: 'Default at 6s',
+            team: 'Default at 2s',
+            business: 'Default at 2s',
+            enterprise: 'Default at 2s',
+        },
+        {
+            name: 'Communication Channel: Email',
+            developer: 1,
+            team: 1,
+            business: 1,
+            enterprise: 1,
+        },
+        {
+            name: 'Communication Channel: Hotline',
+            business: 1,
+            enterprise: 1,
+        },
+        {
+            name: 'Communication Channel: Private Chat',
+            enterprise: 1,
+        }
+    ],
     expandedFeatures: [
         {
             name: 'Supported formats',

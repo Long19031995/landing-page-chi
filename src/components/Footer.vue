@@ -1,5 +1,5 @@
 <template>
-    <div class="footer bg-white black-darker flex flex-column align-center">
+    <div class="footer bg-white black-darker flex flex-column align-center mt80">
         <h1>{{pageData.question}}</h1>
         <div class="flex mt48">
                 <div class="col-md-6 col-xl-6 col-0">

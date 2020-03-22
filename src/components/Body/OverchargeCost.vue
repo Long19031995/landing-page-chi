@@ -1,16 +1,21 @@
 <template>
-    <div class="overcharge-cost">
-        <h1>Overcharge cost</h1>
-        <table>
+    <div class="overcharge-cost mt80">
+        <h1 class="font-36px text-center mb24 black-darker">Overcharge cost</h1>
+        <table class="font-14px" cellspacing="0" cellpadding="0">
             <tr>
                 <template v-for="(val, key) in costs">
-                    <th class="py12" :key="key">{{ val.type }}</th>
+                    <th class="py12 white bg-red-lighter" :key="key">{{ val.type }}</th>
                 </template>
             </tr>
             <tr>
                 <template v-for="(val, key) in costs">
-                    <td class="text-center py24 align-center" :key="key">
-                        {{ val.value }}<img :src="iconCent">
+                    <td class="pt24 pb16 black-darker bg-white" :key="key">
+                        <div class="flex align-center justify-center font-18px">
+                            {{ val.value }}
+                            <span class="font-24px">
+                                &cent;
+                            </span>
+                        </div>
                     </td>
                 </template>
             </tr>

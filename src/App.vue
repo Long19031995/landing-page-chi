@@ -21,5 +21,6 @@ export default {
 .app {
   background-image: url(assets/image/graphics/background.png);
   background-repeat: no-repeat;
+
 }
 </style>
