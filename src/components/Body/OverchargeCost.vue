@@ -10,9 +10,9 @@
             <tr>
                 <template v-for="(val, key) in costs">
                     <td class="pt24 pb16 black-darker bg-white" :key="key">
-                        <div class="flex align-center justify-center font-18px">
+                        <div class="font-18px mr-2 line-height-center text-center">
                             {{ val.value }}
-                            <span class="font-24px">
+                            <span class="font-24px ml-4">
                                 &cent;
                             </span>
                         </div>
